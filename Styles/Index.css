@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 130px;
+    margin-right: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cabecalho a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+
+#banner{
+    display: flex;
+    flex-direction: row;
+}
+
+#b1{
+    height: 380px;
+    width: 600px;
+    
+}
+
+#b2{
+    width : 1350px;
+    height: 380px;
+}
+
+
+footer{
+    margin-left: 90px;
+}
+
+p{
+    font-size: 30px;
+}
+
+#rodape2{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100v;
+    height: 80px;
+    
+}
+#servicos{
+    margin-left: 85px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+#agenda{
+    margin-left: 980px;
+    margin-top: 10px;
+    font-size: 23px;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e8e6e6;
+
+}
+
+#contentservicos{
+    width: 2000px;
+    height: 1200px;
+    margin-left: 85px;
+}
+
+#contentservicos p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+#contentservicos b{
+    font-size: 25px; 
+}
+
+#contentagenda{
+    margin-left: 350px;
+    font-size: 20px;
+    margin-right: 260px;
+    margin-top: -130px;
+    
+}
+
+#contentagenda p{
+    font-size: 30px;
+}
+
+#mapadosite{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    width: 400px;
+    height: 350px;
+
+}
+
+#mapadosite h2{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#mapadosite p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#rodapefinal{
+    background-color: black;
+    color: white;
+    height: 120px;
+        
+}
+#rodapefinal p{
+    font-size: 15px;
+    margin-left: 80px;
+
+}
